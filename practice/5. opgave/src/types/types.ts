@@ -7,9 +7,12 @@ export type ButtonProps = {
 export type ContainerProps = {
   color: string;
   width: string;
-  padding: number;
-  margin: string;
+  padding?: number;
+  margin?: string;
   children?: React.ReactNode;
+};
+export type HeaderProps = {
+  children: React.ReactNode;
 };
 
 export type MainProps = {

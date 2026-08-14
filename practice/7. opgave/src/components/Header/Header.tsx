@@ -1,10 +1,5 @@
-import { Navbar } from "../Navbar/Navbar";
+import type { HeaderProps } from "../../types/types";
 
-export const Header = () => {
-  return (
-    <header>
-      My first React app
-      <Navbar />
-    </header>
-  );
+export const Header = ({ children }: HeaderProps) => {
+  return <header>{children}</header>;
 };

@@ -3,7 +3,7 @@ export const Ul = () => {
     <ul>
       <li>Projects</li>
       <li>About</li>
-      <li>Contect</li>
+      <li>Contact</li>
     </ul>
   );
 };

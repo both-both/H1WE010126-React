@@ -1,4 +1,4 @@
-import { Ul } from "./ul";
+import { Ul } from "./Ul";
 
 export const Navbar = () => {
   return <Ul />;

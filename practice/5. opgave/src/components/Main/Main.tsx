@@ -1,10 +1,5 @@
-import { Button } from "../Button/Button";
+import type { MainProps } from "../../types/types";
 
-export const Main = () => {
-  return (
-    <section>
-      <p>My first react project</p>
-      <Button textValue="Say Heinz" />
-    </section>
-  );
+export const Main = ({ children }: MainProps) => {
+  return <main>{children}</main>;
 };
